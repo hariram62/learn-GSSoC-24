@@ -10,7 +10,7 @@ class AboutPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'About',
+          'a',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
       ),
@@ -104,7 +104,7 @@ class AboutPage extends StatelessWidget {
                     height: 32.0,
                     color: Theme.of(context).brightness == Brightness.dark
                         ? Colors.white
-                        : Colors.black ,
+                        : Colors.black,
                   ),
                 ),
                 const SizedBox(width: 16.0),
