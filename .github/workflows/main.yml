@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - check
+      - master
 name: "Build & Release"
 jobs:
   build:
